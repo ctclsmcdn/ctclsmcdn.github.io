@@ -844,7 +844,7 @@ function LastFM(options){
 			string += apiSecret;
 
 			/* Needs lastfm.api.md5.js. */
-			return md5(string);
+			return hex_md5(string);
 		}
 	};
 }
