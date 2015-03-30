@@ -662,21 +662,17 @@ function LastFM(options){
 			signedCall('track.removeTag', params, session, callbacks, 'POST');
 		},
 
-		scrobble : function(params, session, callbacks){
-			/* Flatten an array of multiple tracks into an object with "array notation". */
-			if(params.constructor.toString().indexOf("Array") != -1){
-				var p = {};
-
-				for(i in params){
-					for(j in params[i]){
-						p[j + '[' + i + ']'] = params[i][j];
-					}
-				}
-
-				params = p;
-			}
-
-			signedCall('track.scrobble', params, session, callbacks, 'POST');
+		scrobble : function(params, callbacks){
+		    if(params.constructor.toString().indexOf("Array") != -1){
+		        var p = {};
+        		for(i in params){
+        		    for(j in params[i]){
+         		       p[j + '[' + i + ']'] = params[i][j];
+        		    }
+        		}
+		        params = p;
+		    }
+		    signedCall('track.scrobble', params, session, callbacks, 'POST');
 		},
 
 		search : function(params, callbacks){
