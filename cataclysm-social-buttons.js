@@ -1,1 +1,15 @@
-document.write(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%48%65%6c%6c%6f%2c%20%63%72%75%65%6c%20%77%6f%72%6c%64%21%27%29%3b'));
+var btns = "<li class="vk"><a title="ВКонтакте" class="ctw-vk"><span>ВКонтакте</span></a></li>
+<li class="tw"><a title="Twitter" class="ctw-tw"><span>Twitter</span></a></li>
+<li class="fb"><a title="Facebook" class="ctw-fb"><span>Facebook</span></a></li>
+<li class="gp"><a title="Google+" class="ctw-gp"><span>Google+</span></a></li>
+<li class="lj"><a title="LiveJournal" class="ctw-lj"><span>LiveJournal</span></a></li>
+<li class="en"><a title="Evernote" class="ctw-en"><span>Evernote</span></a></li>
+<li class="mm"><a title="Мой Мир" class="ctw-mm"><span>Мой Мир</span></a></li>
+<li class="tm"><a title="Tumblr" class="ctw-tm"><span>Tumblr</span></a></li>
+<li class="in"><a title="LinkedIn" class="ctw-in"><span>LinkedIn</span></a></li>
+<li class="dg"><a title="Digg" class="ctw-dg"><span>Digg</span></a></li>
+<li class="bl"><a title="Blogger" class="ctw-bl"><span>Blogger</span></a></li>
+<li class="em"><a title="Embedly" class="ctw-embed"><span>Embedly</span></a></li>";
+
+document.write("<ul class="cataclysm-social-btns colored cataclysm-onclick">"+btns+"<li class="all"><a onclick="$('#cataclysm-modal').addClass('display');" title="Прочие..." class="ctw-all"><span>Прочие</span></a></li>
+</ul><center id="cataclysm-modal"><a onclick="$('#cataclysm-modal').removeClass('display');">&times;</a><div class="content cataclysm-onclick"><ul>"+btns+"</ul></div></center>");
