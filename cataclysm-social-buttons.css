@@ -1,0 +1,62 @@
+@import "https://fontastic.s3.amazonaws.com/RxPbRu5jXYRQtYJ7bfkMF4/icons.css";
+.cataclysm-social-btns {padding:0;}
+.cataclysm-social-btns li {list-style:none;margin:0;display:none;width:1%;}
+.cataclysm-social-btns li a {text-decoration:none !important;display:block;text-align:center;padding:10px 12px 13px;opacity:0.9;}
+.cataclysm-social-btns li a:hover {opacity:1;cursor:pointer;}
+.cataclysm-social-btns li a:active {box-shadow:inset 0 1px 5px rgba(0,0,0,0.5),inset 0 100px 0 rgba(0,0,0,0.1);}
+.cataclysm-social-btns li a:before {display:inline-block;vertical-align:middle;margin-top:1px;}
+.cataclysm-social-btns li span {margin-left:10px;display:none !important;vertical-align:middle;}
+.cataclysm-social-btns .all,.cataclysm-social-btns.s-vk li.vk,.cataclysm-social-btns.s-bl .bl,.cataclysm-social-btns.s-tw .tw,.cataclysm-social-btns.s-fb .fb,.cataclysm-social-btns.s-gp .gp,.cataclysm-social-btns.s-mm .mm,.cataclysm-social-btns.s-in .in,.cataclysm-social-btns.s-lj .lj,.cataclysm-social-btns.s-tm .tm,.cataclysm-social-btns.s-en .en,.cataclysm-social-btns.s-em .em,.cataclysm-social-btns.s-dg .dg {display:table-cell !important;}
+.cataclysm-social-btns.caption span {display:inline-block !important;}
+.cataclysm-social-btns.caption a:before {margin-top:1px;}
+.cataclysm-social-btns.bold span {font-weight:bold;}
+.cataclysm-social-btns.caps span {text-transform:uppercase;letter-spacing:1px;font-size:80%;}
+.cataclysm-social-btns.colored a,.cataclysm-social-btns.dark a {color:#fff !important;}
+.cataclysm-social-btns.colored a.ctw-vk {background:#3572A0;}
+.cataclysm-social-btns.colored a.ctw-tw {background:#2D92E5;}
+.cataclysm-social-btns.colored a.ctw-fb {background:#4751AA;}
+.cataclysm-social-btns.colored a.ctw-gp {background:#FF494C;}
+.cataclysm-social-btns.colored a.ctw-mm {background:#3893ED;}
+.cataclysm-social-btns.colored a.ctw-in {background:#4376BC;}
+.cataclysm-social-btns.colored a.ctw-en {background:#46C46C;}
+.cataclysm-social-btns.colored a.ctw-bl {background:#ED7842;}
+.cataclysm-social-btns.colored a.ctw-lj {background:#2289C9;}
+.cataclysm-social-btns.colored a.ctw-tm {background:#165884;}
+.cataclysm-social-btns.colored a.ctw-dg {background:#404040;}
+.cataclysm-social-btns.colored a.ctw-all {background:#333;}
+.cataclysm-social-btns.colored a.ctw-embed {background:#444;}
+.cataclysm-social-btns.dark a {background:#333;}
+.cataclysm-social-btns.light a {color:#555 !important;background:#f5f5f5;}
+.cataclysm-social-btns.gradient a {position:relative;}
+.cataclysm-social-btns.gradient a:after {content:'';background: -webkit-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.07) 100%);position:absolute;top:0;right:0;bottom:0;left:0;display:block;}
+.cataclysm-social-btns.noicon a:before {display:none;}
+.cataclysm-social-btns.noicon span {margin:0 !important;}
+.cataclysm-social-btns.rounded li:first-child a,.cataclysm-social-btns.rounded li:first-child a:after {border-radius:4px 0 0 4px;}
+.cataclysm-social-btns.rounded li:last-child a,.cataclysm-social-btns.rounded li:last-child a:after {border-radius:0 4px 4px 0;}
+.cataclysm-social-btns.rounded.block-spacing a,.cataclysm-social-btns.rounded.block-spacing a:after {border-radius:4px !important;}
+.cataclysm-social-btns.circled li:first-child a,.cataclysm-social-btns.circled li:first-child a:after {border-radius:99px 0 0 99px;}
+.cataclysm-social-btns.circled li:last-child a,.cataclysm-social-btns.circled li:last-child a:after {border-radius:0 99px 99px 0;}
+.cataclysm-social-btns.circled.block-spacing a,.cataclysm-social-btns.circled.block-spacing a:after {border-radius:99px !important;}
+.cataclysm-social-btns.block-spacing li {padding-right:7px !important;}
+.cataclysm-social-btns.block-spacing li:last-child {padding-right:0 !important;}
+.cataclysm-social-btns.bigicon a:before {font-size:18px;}
+.cataclysm-social-btns.bigicon span {display:block !important;margin:0;margin-top:5px;}
+.cataclysm-social-btns.i-md a:before {font-size:19px;}
+.cataclysm-social-btns.i-lg a:before {font-size:22px;}
+.cataclysm-social-btns.i-fg a:before {font-size:26px;}
+.cataclysm-social-btns.border a {border:1px solid rgba(0,0,0,0.1);border-right:0;}
+.cataclysm-social-btns.border li:last-child a,.cataclysm-social-btns.border.block-spacing a {border:1px solid rgba(0,0,0,0.1);}
+#cataclysm-modal {position:fixed;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,0.6);z-index:999;padding:35px;}
+#cataclysm-modal>a {position:fixed;top:0;right:35px;padding:1px 12px;font-size:25px;background:#fff;border-radius:100px;color:#333 !important;opacity:0.5;text-decoration:none !important;}
+#cataclysm-modal>a:hover {opacity:0.7;}
+#cataclysm-modal,#cataclysm-modal.nodisplay {visibility:hidden;opacity:0;padding-top:100px;}
+#cataclysm-modal.display {visibility:visible;opacity:1;padding-top:35px;}
+#cataclysm-modal.display>a {top:35px;}
+#cataclysm-modal .content {width:400px;max-width:100%;padding:20px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.07),0 5px 20px rgba(0,0,0,0.04);}
+#cataclysm-modal li,#cataclysm-modal ul {list-style:none;padding:0;text-align:left;margin:0;}
+#cataclysm-modal li {display:inline-block;width:49.1%;margin-bottom:7px;}
+#cataclysm-modal li a {font-size:11px;color:#333 !important;text-transform:uppercase;text-decoration:none !important;letter-spacing:1px;opacity:0.8;font-weight:bold;}
+#cataclysm-modal li a:hover {opacity:1;}
+#cataclysm-modal li a:before {margin-right:5px;display:inline-block;vertical-align:middle;font-size:14px;opacity:0.6;}
+#cataclysm-modal li span {display:inline-block;vertical-align:middle;}
+#cataclysm-modal,#cataclysm-modal a {-webkit-transition:all .25s ease !important;}
