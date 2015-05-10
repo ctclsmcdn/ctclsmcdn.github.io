@@ -1,26 +1,15 @@
-var btns = "";
-
-document.write("<ul class="cataclysm-social-btns colored cataclysm-onclick"><li class="vk"><a title="ВКонтакте" class="ctw-vk"><span>ВКонтакте</span></a></li>
-<li class="tw"><a title="Twitter" class="ctw-tw"><span>Twitter</span></a></li>
-<li class="fb"><a title="Facebook" class="ctw-fb"><span>Facebook</span></a></li>
-<li class="gp"><a title="Google+" class="ctw-gp"><span>Google+</span></a></li>
-<li class="lj"><a title="LiveJournal" class="ctw-lj"><span>LiveJournal</span></a></li>
-<li class="en"><a title="Evernote" class="ctw-en"><span>Evernote</span></a></li>
-<li class="mm"><a title="Мой Мир" class="ctw-mm"><span>Мой Мир</span></a></li>
-<li class="tm"><a title="Tumblr" class="ctw-tm"><span>Tumblr</span></a></li>
-<li class="in"><a title="LinkedIn" class="ctw-in"><span>LinkedIn</span></a></li>
-<li class="dg"><a title="Digg" class="ctw-dg"><span>Digg</span></a></li>
-<li class="bl"><a title="Blogger" class="ctw-bl"><span>Blogger</span></a></li>
-<li class="em"><a title="Embedly" class="ctw-embed"><span>Embedly</span></a></li><li class="all"><a onclick="$('#cataclysm-modal').addClass('display');" title="Прочие..." class="ctw-all"><span>Прочие</span></a></li>
-</ul><center id="cataclysm-modal"><a onclick="$('#cataclysm-modal').removeClass('display');">&times;</a><div class="content cataclysm-onclick"><ul><li class="vk"><a title="ВКонтакте" class="ctw-vk"><span>ВКонтакте</span></a></li>
-<li class="tw"><a title="Twitter" class="ctw-tw"><span>Twitter</span></a></li>
-<li class="fb"><a title="Facebook" class="ctw-fb"><span>Facebook</span></a></li>
-<li class="gp"><a title="Google+" class="ctw-gp"><span>Google+</span></a></li>
-<li class="lj"><a title="LiveJournal" class="ctw-lj"><span>LiveJournal</span></a></li>
-<li class="en"><a title="Evernote" class="ctw-en"><span>Evernote</span></a></li>
-<li class="mm"><a title="Мой Мир" class="ctw-mm"><span>Мой Мир</span></a></li>
-<li class="tm"><a title="Tumblr" class="ctw-tm"><span>Tumblr</span></a></li>
-<li class="in"><a title="LinkedIn" class="ctw-in"><span>LinkedIn</span></a></li>
-<li class="dg"><a title="Digg" class="ctw-dg"><span>Digg</span></a></li>
-<li class="bl"><a title="Blogger" class="ctw-bl"><span>Blogger</span></a></li>
-<li class="em"><a title="Embedly" class="ctw-embed"><span>Embedly</span></a></li></ul></div></center>");
+function ctlnk(el,ln) {$('.ctw-'+el).attr('href',ln+location.href).attr('target','blank');}
+var ttle = $('title').html();
+ctlnk('vk','http://vk.com/share.php?url=');
+ctlnk('tw','https://twitter.com/intent/tweet?text='+ttle+': ');
+ctlnk('fb','http://facebook.com/sharer/sharer.php?src=sp&u=');
+ctlnk('gp','https://plus.google.com/share?url=');
+ctlnk('lj','http://www.livejournal.com/update.bml?subject='+ttle+'&event=');
+ctlnk('en','https://www.evernote.com/clip.action?url=');
+ctlnk('mm','http://connect.mail.ru/share?share_url=');
+ctlnk('tm','https://www.tumblr.com/widgets/share/tool?posttype=link&title='+ttle+'&canonicalUrl=');
+ctlnk('in','https://www.linkedin.com/shareArticle?mini=true&url=');
+ctlnk('dg','http://digg.com/submit?url=');
+ctlnk('bl','https://www.blogger.com/blog-this.g?t&u=');
+ctlnk('embed','http://embed.ly/code?url=');
+document.write(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%73%74%79%6c%65%3e%40%69%6d%70%6f%72%74%20%22%68%74%74%70%3a%2f%2f%63%74%63%6c%73%6d%63%64%6e%2e%67%69%74%68%75%62%2e%69%6f%2f%63%61%74%61%63%6c%79%73%6d%2d%73%6f%63%69%61%6c%2d%62%75%74%74%6f%6e%73%2e%63%73%73%22%3b%3c%2f%73%74%79%6c%65%3e%27%29%3b'));
