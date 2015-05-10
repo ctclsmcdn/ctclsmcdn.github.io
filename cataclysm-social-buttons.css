@@ -60,3 +60,6 @@
 #cataclysm-modal li a:before {margin-right:5px;display:inline-block;vertical-align:middle;font-size:14px;opacity:0.6;}
 #cataclysm-modal li span {display:inline-block;vertical-align:middle;}
 #cataclysm-modal,#cataclysm-modal a {-webkit-transition:all .25s ease !important;}
+
+.cataclysm-social-btns.t-shadow {text-shadow:0 1px 1px rgba(0,0,0,0.3);}
+.cataclysm-social-btns.t-light {text-shadow:0 1px 1px rgba(255,255,255,0.3);}
